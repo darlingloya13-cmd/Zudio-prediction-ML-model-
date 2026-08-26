@@ -2,14 +2,14 @@
 
 An end-to-end Machine Learning project that predicts the performance and viability score of untapped markets for retail expansion using Python, Scikit-Learn, and Streamlit.
 
-What is this?
+# What is this?
 
 Ever wondered how retail brands decide where to open their next store?
 This project uses real-time data analysis and machine learning to evaluate untapped cities and determine whether they make high-potential locations for a new Zudio store rollout.
 
 By analyzing local market features—such as population estimates, per-capita income, existing mall density, and customer counts—a trained Random Forest Regressor model calculates a performance and priority score for each city. Coupled with an interactive Streamlit web application, users can dynamically select states and cities to instantly review projected metrics and expansion recommendations.
 
-Key Features
+# Key Features
 
 Machine Learning Pipeline: Built with a Random Forest Regressor model to predict continuous store performance metrics based on regional demographics.
 
@@ -19,7 +19,7 @@ Dynamic Decision Support: Automatically classifies target markets into high or l
 
 Zero-Editing Software: Powered purely by Python, Pandas, Scikit-Learn, Joblib, and Streamlit.
 
-How It Works
+# How It Works
 
 The project follows a streamlined data-to-deployment pipeline:
 
@@ -32,7 +32,7 @@ Extract Market Features (Population, Income, Malls, etc.)
 Model Predicts Performance Score
 Display Interactive Business Recommendations
 
-Tech Stack
+# Tech Stack
 
 Language: Python
 
@@ -48,7 +48,7 @@ Getting Started Locally
 
 Follow these steps to run the web application on your local machine:
 
-Clone the repository:
+# Clone the repository:
 git clone https://github.com/darlingloya13-cmd/Zudio-prediction-ML-model-.git
 cd Zudio-prediction-ML-model-
 
@@ -58,7 +58,7 @@ pip install streamlit pandas scikit-learn joblib
 Run the Streamlit app:
 streamlit run app.py
 
-Project Structure
+# Project Structure
 
 app.py - Main Streamlit web application
 zudio_rf_model.pkl - Trained Random Forest Regressor model
